@@ -119,7 +119,7 @@ class _Page4State extends State<Page4> {
 
   Future<void> _fetchLiveTrafficConditions() async {
     final apiKey =
-        'AIzaSyACYdhAmCpmX-4GdQlyWI-FQxq-Be4DVmA'; // Replace with your actual API key
+       ; // Replace with your actual API key
     if (widget.routePoints.isEmpty) {
       print('No route points provided.');
       return; // Exit if there are no route points
